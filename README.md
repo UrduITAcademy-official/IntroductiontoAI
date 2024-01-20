@@ -1,8 +1,24 @@
-# Basics of AI for Beginners
+# 🌟 Welcome to "Basics of AI for Beginners" at Urdu IT Academy 🎓
 
-This course entails the basics of AI for non-technical and fresh learners. We will start from the basics of AI and machine learning, then familiarity with python and Google Colab. We will briefly discuss machine learning models for object classification and detection. Next, we will highlight AI applications for images and speech processing. Finally, the audience will be familiarized with some advanced deep learning libraries like pytorch or Tensorflow etc.
+Hello and a heartiest welcome to all eager minds ready to embark on a journey into the fascinating world of Artificial Intelligence! 🤖🚀
 
-## Scheduled Week Modules
+👩‍💻👨‍💻 **About This Course:**
+Are you curious about AI but don't know where to start? Our "Basics of AI for Beginners" course is tailored just for you! This course is your golden ticket into the world of AI and machine learning, crafted especially for non-technical learners and those just starting out. 🌱💡
+
+🔍 **What You'll Learn:**
+- Get a solid foundation in AI and machine learning concepts.
+- Become familiar with Python programming and Google Colab tools.
+- Dive into machine learning models for object classification and detection.
+- Explore exciting AI applications in image and speech processing.
+- Get an introduction to advanced deep learning libraries like PyTorch and TensorFlow.
+
+🎉 **Why This Course?**
+We believe learning should be fun, accessible, and empowering. That's why our course is designed to be engaging and easy to follow, ensuring you not only learn but also enjoy the journey! 📚✨
+
+🔗 Join us in this thrilling adventure at [Urdu IT Academy](https://www.urduitacademy.com) and open the doors to a world of opportunities in AI.
+
+# Let's Begin This Exciting Learning Adventure Together! 🚀🤖
+
 
 ### Week 1: Introduction
 - Basic Concept of Artificial Intelligence (AI)
