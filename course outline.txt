@@ -1,0 +1,131 @@
+interface CourseModule {
+    week: number;
+    title: string;
+    learningUnits: string[];
+}
+
+interface Course {
+    title: string;
+    description: string;
+    modules: CourseModule[];
+}
+
+const aiCourse: Course = {
+    title: "Basics of AI for Beginners",
+    description: "This course entails the basics of AI for non-technical and fresh learners. Starting with AI and machine learning basics, the course progresses through Python and Google Colab, machine learning models for object classification and detection, AI applications for images and speech processing, and concludes with advanced deep learning libraries like PyTorch or TensorFlow.",
+    modules: [
+        {
+            week: 1,
+            title: "Introduction",
+            learningUnits: [
+                "Basic Concept of Artificial Intelligence (AI)",
+                "The Necessity of Learning AI",
+                "Branches of AI",
+                "What’s Involved in AI?",
+                "Application of AI",
+                "AI and Basics of Python"
+            ]
+        },
+        {
+            week: 2,
+            title: "Machine Learning",
+            learningUnits: [
+                "Types of Machine Learning (ML)",
+                "Supervised machine learning algorithms",
+                "Unsupervised machine learning algorithms",
+                "K-Mean Clustering",
+                "Logistic Regression, Support Vector Machine (SVM)",
+                "K-Nearest Neighbors (KNN)",
+                "Decision Tree and Random Forest"
+            ]
+        },
+        {
+            week: 3,
+            title: "Classifiers",
+            learningUnits: [
+                "Introduction to Google Colab",
+                "Create, Read, Write Files in Python",
+                "Labeling Data",
+                "Preprocessing the Data",
+                "Gender Classification (Practice)"
+            ]
+        },
+        {
+            week: 4,
+            title: "External Libraries",
+            learningUnits: [
+                "Steps for Building a Classifier in Python (Project)",
+                "Import Scikit-learn",
+                "Import Scikit-learn’s dataset",
+                "Organizing data into sets",
+                "Import libraries in Python, Numpy, Matplotlib etc."
+            ]
+        },
+        {
+            week: 5,
+            title: "Speech Recognition",
+            learningUnits: [
+                "Speech Recognition using AI with Python",
+                "Building a Speech Recognizer",
+                "Visualizing Audio Signals - Reading from a File and Working on it",
+                "Characterizing the Audio Signal: Transforming to Frequency Domain",
+                "Generating Monotone Audio Signal and Feature Extraction from Speech",
+                "Speech synthesis using AI"
+            ]
+        },
+        {
+            week: 6,
+            title: "Introduction to ChatBots",
+            learningUnits: [
+                "Building Bots to Play Games",
+                "A Bot to Play Last Coin Standing",
+                "Project Creating Bot"
+            ]
+        },
+        {
+            week: 7,
+            title: "AI Applications for Images",
+            learningUnits: [
+                "Introduction to Open CV, PIL, matplotlib library",
+                "Image Processing",
+                "Image Input and Output",
+                "Video Input and Output"
+            ]
+        },
+        {
+            week: 8,
+            title: "Object detection in Images and Video",
+            learningUnits: [
+                "Introduction to Object Detection",
+                "YOLO, SSD Object detectors",
+                "Object detector application"
+            ]
+        },
+        {
+            week: 9,
+            title: "Tensorflow and Pytorch libraries for AI",
+            learningUnits: [
+                "TensorFlow",
+                "Installing TensorFlow",
+                "Loading And Exploring the Data",
+                "Tasks and Project"
+            ]
+        },
+        {
+            week: 10,
+            title: "An application of ML for Disease Prediction",
+            learningUnits: [
+                "An AI-based Recommended Systems for Movies and different Tasks concerned to recommendation"
+            ]
+        },
+        {
+            week: 11,
+            title: "AI-based Recommendation system",
+            learningUnits: [
+                "Building a recommendation system using AI"
+            ]
+        }
+    ]
+};
+
+export default aiCourse;
